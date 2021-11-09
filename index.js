@@ -112,7 +112,7 @@ async function run() {
     // }
 }
 
-run().catch(console.dir);
+run();
 
 app.get('/', (req, res) => {
     res.send('Hello Doctors portal!')
